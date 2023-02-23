@@ -1,11 +1,16 @@
 :root {
-  --primary-color: #6c63ff;
+  --primary-color: #f7eb91;
   --secondary-color: #f5f2fe;
+  --background-color: #f9f7fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
   margin: 0 auto;
+}
+
+header {
+  background-color: var(--background-color);
 }
 
 nav {
@@ -25,22 +30,27 @@ h3 {
   margin: 0;
 }
 
-h1 {
+.header h1 {
   font-size: 96px;
+  line-height: 128px;
   font-family: "Playfair Display", serif;
 }
 
-h2 {
-  font-size: 48px;
+.header h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #272142;
+  padding-top: 200px;
+  line-height: 54px;
 }
 
-h3 {
+.header h3 {
   font-size: 24px;
-  opacity: 0.7;
+  line-height: 36px;
 }
 
 p {
-  background: var(--secondary-color);
+  background: var(--background-color);
   padding: 20px;
   border-radius: 4px;
   font-size: 18px;
@@ -98,4 +108,15 @@ p {
 .about-link {
   text-decoration: none;
   color: black;
+}
+.btn.btn-branding {
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  margin: 50px 0 200px;
+  padding: 18px 46px;
+  border-radius: 4px;
+}
+
+.btn.btn-branding:hover {
+  border: 1px solid #afc3e3;
 }
