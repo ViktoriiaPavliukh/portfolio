@@ -3,6 +3,8 @@
   --secondary-color: #f5f2fe;
   --background-color: #f9f7fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --primary-font: "Poppins", sans-serif;
+  --secondary-font: "Playfair Display", serif;
 }
 
 body {
@@ -14,12 +16,12 @@ header {
 }
 
 nav {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--primary-font);
   font-weight: 400;
 }
 
 .container {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--primary-font);
   font-weight: 400;
 }
 
@@ -33,7 +35,7 @@ h3 {
 .header h1 {
   font-size: 96px;
   line-height: 128px;
-  font-family: "Playfair Display", serif;
+  font-family: var(--secondary-font);
 }
 
 .header h2 {
@@ -119,4 +121,12 @@ p {
 
 .btn.btn-branding:hover {
   border: 1px solid #afc3e3;
+}
+main h2 {
+  padding: 127px 0 60px;
+  font-size: 30px;
+}
+main h5 {
+  font-family: var(--secondary-font);
+  font-size: 50px;
 }
