@@ -130,3 +130,14 @@ main h5 {
   font-family: var(--secondary-font);
   font-size: 50px;
 }
+.about-photo {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.about-section-content h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #272142;
+  line-height: 54px;
+}
