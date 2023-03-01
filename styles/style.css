@@ -1,7 +1,7 @@
 :root {
-  --primary-color: #f7eb91;
-  --secondary-color: #f5f2fe;
-  --background-color: #f9f7fe;
+  --primary-color: #e0cfe6;
+  --secondary-color: #859679;
+  --background-color: #ddeedb;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --primary-font: "Poppins", sans-serif;
   --secondary-font: "Playfair Display", serif;
@@ -99,13 +99,15 @@ p {
 .email-link {
   display: flex;
   justify-content: center;
-  color: var(--primary-color);
+  color: var(--secondary-color);
   font-size: 28px;
   text-decoration: none;
+  padding: 20px;
 }
 
 .email-link:hover {
-  text-decoration: underline;
+  color: var(--primary-color);
+  text-decoration: none;
 }
 .about-link {
   text-decoration: none;
@@ -133,6 +135,10 @@ main h5 {
 .about-photo {
   width: 100%;
   border-radius: 4px;
+}
+.h2 {
+  font-size: 50px;
+  font-family: var(--secondary-font);
 }
 
 .about-section-content h1 {
