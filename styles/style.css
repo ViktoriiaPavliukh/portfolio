@@ -165,6 +165,17 @@ main h5 {
   padding: 5%;
 }
 
+.carousel.slide {
+  max-width: 600px;
+}
+
+.btn {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  width: fit-content;
+}
+
 @media (max-width: 768px) {
   header .h1 {
     font-size: 40px;
